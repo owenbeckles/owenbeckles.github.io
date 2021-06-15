@@ -3240,7 +3240,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #414567;
 		}
 
 		.wrapper.style1-alt {
@@ -3248,7 +3248,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #3D2E4F;
 		}
 
 		.wrapper.style2-alt {
@@ -3256,7 +3256,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #4C5F7A;
 		}
 
 		.wrapper.style3-alt {
@@ -3524,7 +3524,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #0A0F2A;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3907,3 +3907,38 @@ input, select, textarea {
 			}
 
 		}
+
+.language-icons {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 60px;
+	grid-row-gap: 50px;
+}
+
+.language-icons-container{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 45px;
+	padding-top: 45px;
+}
+
+.resume{
+	/* padding-left: 300px; */
+	width: 215%
+}
+
+.resume-button {
+	color: black;
+	padding-top: 100px;
+}
+
+.resume-button:hover {
+	color:#548dd4;
+	font-weight: bold;
+}
+
+.button-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
