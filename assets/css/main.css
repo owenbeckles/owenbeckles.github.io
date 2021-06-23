@@ -8629,7 +8629,7 @@ input, select, textarea {
 
 .language-icons {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	grid-column-gap: 60px;
 	grid-row-gap: 50px;
 }
@@ -8643,4 +8643,8 @@ input, select, textarea {
 
 .back-button {
 	text-decoration: none;
+}
+
+.skills {
+	Font-size: 3rem;
 }
