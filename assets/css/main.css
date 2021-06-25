@@ -8620,11 +8620,11 @@ input, select, textarea {
 }
 
 .individual-links:hover {
-	color: green;
+	color: #829CBC;
 }
 
 .project-title:hover {
-	color: green;
+	color: #829CBC;
 }
 
 .language-icons {
