@@ -8621,6 +8621,7 @@ input, select, textarea {
 
 .individual-links:hover {
 	color: #829CBC;
+	cursor: pointer;
 }
 
 .project-title:hover {
@@ -8630,8 +8631,8 @@ input, select, textarea {
 .language-icons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-column-gap: 200px;
-	grid-row-gap: 80px;
+	grid-column-gap: 60px;
+	grid-row-gap: 50px;
 }
 
 .language-icons-container{
@@ -8657,6 +8658,9 @@ input, select, textarea {
 .home-button {
 	margin-left: 25px;
 	margin-top: 20px;
+	/* display: flex;
+	flex-direction: column;
+	align-content: flex-end; */
 }
 
 .fa-home {
@@ -8664,5 +8668,15 @@ input, select, textarea {
 }
 
 .fa-home:hover {
+	color: #829CBC;
+}
+
+.prof-links {
+	text-decoration: none;
+	margin-right: 15px;
+	margin-top: 50px;
+}
+
+.prof-links:hover {
 	color: #829CBC;
 }
