@@ -8630,8 +8630,8 @@ input, select, textarea {
 .language-icons {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	grid-column-gap: 60px;
-	grid-row-gap: 50px;
+	grid-column-gap: 200px;
+	grid-row-gap: 80px;
 }
 
 .language-icons-container{
@@ -8652,4 +8652,17 @@ input, select, textarea {
 .button-centered {
 	display: flex;
 	justify-content: center;
+}
+
+.home-button {
+	margin-left: 25px;
+	margin-top: 20px;
+}
+
+.fa-home {
+	text-decoration: none;
+}
+
+.fa-home:hover {
+	color: #829CBC;
 }
