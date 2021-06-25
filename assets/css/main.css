@@ -8680,3 +8680,7 @@ input, select, textarea {
 .prof-links:hover {
 	color: #829CBC;
 }
+
+.resume-button {
+	list-style: none;
+}
