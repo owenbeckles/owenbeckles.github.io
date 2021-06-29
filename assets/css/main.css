@@ -2195,7 +2195,27 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		button:hover,
-		.button:hover {
+		.avocati-button:hover {
+			background: linear-gradient(to right, #8DB596, #8DB596);
+			box-shadow: inset 0 0 0 1px #444554;
+			color: white !important;
+		}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.nh-button:hover {
+			background: linear-gradient(to right, pink, pink);
+			box-shadow: inset 0 0 0 1px #444554;
+			color: white !important;
+		}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.mvk-button:hover {
 			background: linear-gradient(to right, black, black);
 			box-shadow: inset 0 0 0 1px #444554;
 			color: white !important;
@@ -8683,4 +8703,38 @@ input, select, textarea {
 
 .resume-button {
 	list-style: none;
+}
+
+.nh-links {
+	text-decoration: none;
+}
+
+.nh-links:hover {
+	color: pink;
+	cursor: pointer;
+}
+
+.noddingham {
+	text-decoration: none;
+}
+
+.noddingham:hover {
+	color: pink;
+}
+
+.avocati {
+	text-decoration: none;
+}
+
+.avocati:hover {
+	color: #8DB596;
+}
+
+.avocati-links {
+	text-decoration: none;
+}
+
+.avocati-links:hover {
+	color: #8DB596;
+	cursor: pointer;
 }
