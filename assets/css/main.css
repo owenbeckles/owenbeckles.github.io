@@ -2215,8 +2215,18 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		button:hover,
-		.mvk-button:hover {
+		.normal-button:hover {
 			background: linear-gradient(to right, black, black);
+			box-shadow: inset 0 0 0 1px #444554;
+			color: white !important;
+		}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.mvk-button:hover {
+			background: linear-gradient(to right, #F08E80, #F08E80);
 			box-shadow: inset 0 0 0 1px #444554;
 			color: white !important;
 		}
@@ -8736,5 +8746,14 @@ input, select, textarea {
 
 .avocati-links:hover {
 	color: #8DB596;
+	cursor: pointer;
+}
+
+.mvk-links {
+	text-decoration: none;
+}
+
+.mvk-links:hover {
+	color: #F08E80;
 	cursor: pointer;
 }
