@@ -8766,3 +8766,7 @@ input, select, textarea {
 	color: #F08E80;
 	cursor: pointer;
 }
+
+.no-bullets {
+	list-style-type: none;
+}
