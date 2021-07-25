@@ -8770,3 +8770,8 @@ input, select, textarea {
 .no-bullets {
 	list-style-type: none;
 }
+
+.skills-button {
+	display: flex;
+	justify-content: center;
+}
