@@ -8660,7 +8660,7 @@ input, select, textarea {
 
 .language-icons {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 60px;
 	grid-row-gap: 50px;
 }
